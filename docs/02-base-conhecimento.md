@@ -44,20 +44,27 @@ Os dados de orçamento e transações vão direto no system prompt, resumidos po
 
 ```
 Dados do Usuário:
-- Nome: Pedro
-- Perfil: Costuma gastar mais no fim de semana
-- Meta: Reduzir gastos com delivery
+- Nome: João Silva
+- Perfil de gasto: impulsivo em lazer e delivery, organizado com contas fixas
+- Objetivo: Reduzir gastos com iFood e aumentar uso da feira/mercado
 
-Orçamento de Outubro:
-- Lazer: R$ 300 (usado: R$ 310 — estourado)
-- Alimentação/iFood: R$ 250 (usado: R$ 240)
-- Feira/Mercado: R$ 400 (usado: R$ 150)
+Orçamento de Outubro/2025:
+- iFood: R$ 200,00 (usado: R$ 324,30 — ESTOURADO em 62%)
+- Lazer: R$ 300,00 (usado: R$ 334,90 — ESTOURADO em 12%)
+- Mercado: R$ 500,00 (usado: R$ 275,00 — dentro do limite)
+- Transporte: R$ 350,00 (usado: R$ 295,00 — dentro do limite)
+- Moradia: R$ 1.500,00 (usado: R$ 1.380,00 — dentro do limite)
+- Saúde: R$ 250,00 (usado: R$ 188,00 — dentro do limite)
 
 Últimas transações:
-- 12/10: iFood - R$ 45
-- 13/10: Cinema - R$ 60
-- 15/10: Mercado - R$ 80
+- 22/10: iFood - Sushi - R$ 74,00
+- 20/10: Academia - R$ 99,00
+- 18/10: Show/Ingresso - R$ 120,00
+- 16/10: iFood - Açaí - R$ 29,90
+- 14/10: iFood - Lanche - R$ 38,00
 
-Alertas anteriores:
-- 10/10: Avisado sobre proximidade do limite de lazer
+Alertas anteriores nesse mês:
+- 14/10: Avisado que estava a 90% do limite de iFood (usuário respondeu)
+- 18/10: Avisado que estava próximo do limite de lazer (usuário respondeu)
+- 02/10: Sugerido trocar iFood pela feira (usuário não respondeu)
 ```
