@@ -44,6 +44,4 @@ O diferencial do Flow não é ser mais um app de controle financeiro que só mos
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
 Vídeo será adicionado em complemento — ver roteiro detalhado acima.
