@@ -1,0 +1,6 @@
+data,categoria,tipo_alerta,mensagem,usuario_respondeu
+2025-09-18,ifood,limite_proximo,Avisado que estava a 80% do limite de iFood do mês,sim
+2025-09-25,lazer,limite_estourado,Avisado que o orçamento de lazer estourou em R$ 40,sim
+2025-10-02,mercado,dica,Sugerido substituir um pedido de iFood por ida à feira,nao
+2025-10-14,ifood,limite_proximo,Avisado que estava a 90% do limite de iFood do mês,sim
+2025-10-18,lazer,limite_proximo,Avisado que estava próximo do limite de lazer após compra de ingresso,sim

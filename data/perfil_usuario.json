@@ -1,0 +1,22 @@
+{
+  "nome": "João Silva",
+  "idade": 32,
+  "profissao": "Analista de Sistemas",
+  "renda_mensal": 5000.00,
+  "perfil_de_gasto": "impulsivo em lazer e delivery, organizado com contas fixas",
+  "objetivo_principal": "Reduzir gastos com iFood e aumentar o uso da feira/mercado",
+  "reserva_emergencia_atual": 2000.00,
+  "aceita_notificacoes_proativas": true,
+  "metas": [
+    {
+      "meta": "Gastar no máximo R$ 200/mês com iFood",
+      "categoria_relacionada": "ifood",
+      "prazo": "contínuo"
+    },
+    {
+      "meta": "Guardar R$ 300/mês para reserva de emergência",
+      "categoria_relacionada": "poupanca",
+      "prazo": "2026-06"
+    }
+  ]
+}

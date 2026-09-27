@@ -1,11 +1,21 @@
 data,descricao,categoria,valor,tipo
 2025-10-01,Salário,receita,5000.00,entrada
 2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
+2025-10-03,Feira do bairro,mercado,180.00,saida
+2025-10-04,iFood - Hamburgueria,ifood,52.90,saida
+2025-10-05,Cinema,lazer,80.00,saida
+2025-10-06,iFood - Japonês,ifood,68.50,saida
 2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
+2025-10-08,Supermercado,mercado,220.00,saida
+2025-10-09,Netflix,lazer,39.90,saida
+2025-10-10,iFood - Pizza,ifood,61.00,saida
 2025-10-12,Uber,transporte,45.00,saida
+2025-10-13,Bar com amigos,lazer,95.00,saida
+2025-10-14,iFood - Lanche,ifood,38.00,saida
 2025-10-15,Conta de Luz,moradia,180.00,saida
+2025-10-16,iFood - Açaí,ifood,29.90,saida
+2025-10-18,Show/Ingresso,lazer,120.00,saida
 2025-10-20,Academia,saude,99.00,saida
+2025-10-22,iFood - Sushi,ifood,74.00,saida
 2025-10-25,Combustível,transporte,250.00,saida
+2025-10-27,Feira do bairro,mercado,95.00,saida

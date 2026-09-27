@@ -1,0 +1,35 @@
+{
+  "mes_referencia": "2025-10",
+  "orcamentos": [
+    {
+      "categoria": "moradia",
+      "limite_mensal": 1500.00,
+      "prioridade": "essencial"
+    },
+    {
+      "categoria": "mercado",
+      "limite_mensal": 500.00,
+      "prioridade": "essencial"
+    },
+    {
+      "categoria": "ifood",
+      "limite_mensal": 200.00,
+      "prioridade": "flexivel"
+    },
+    {
+      "categoria": "lazer",
+      "limite_mensal": 300.00,
+      "prioridade": "flexivel"
+    },
+    {
+      "categoria": "transporte",
+      "limite_mensal": 350.00,
+      "prioridade": "essencial"
+    },
+    {
+      "categoria": "saude",
+      "limite_mensal": 250.00,
+      "prioridade": "essencial"
+    }
+  ]
+}
