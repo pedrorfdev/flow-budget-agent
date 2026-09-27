@@ -39,7 +39,6 @@ O diferencial do Flow não é ser mais um app de controle financeiro que só mos
 - [X] Problema claramente definido
 - [X] Solução demonstrada na prática
 - [X] Diferencial explicado
-- [X] Áudio e vídeo com boa qualidade
 
 ---
 
@@ -47,4 +46,4 @@ O diferencial do Flow não é ser mais um app de controle financeiro que só mos
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+Vídeo será adicionado em complemento — ver roteiro detalhado acima.
