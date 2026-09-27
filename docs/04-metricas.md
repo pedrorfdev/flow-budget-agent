@@ -13,37 +13,36 @@ A avaliação pode ser feita de duas formas complementares:
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
+| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar quanto foi gasto com iFood e receber o valor correto de transacoes.csv |
+| **Segurança** | O agente evitou inventar informações? | Perguntar sobre investimentos (fora do escopo) e ele admitir que não trata disso |
+| **Coerência** | O alerta faz sentido com os dados de orçamento do usuário? | Perguntar sobre lazer com a categoria estourada e o agente identificar isso corretamente |
 
 > [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
-
+> Peça para 3-5 pessoas testarem o Flow e avaliarem cada métrica com notas de 1 a 5. Contextualize que os dados usados são de um usuário fictício (João Silva) com hábito de gastar mais em iFood e lazer.
 ---
 
 ## Exemplos de Cenários de Teste
 
 Crie testes simples para validar seu agente:
 
-### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
+### Teste 1: Consulta de gastos por categoria
+- **Pergunta:** "Quanto eu gastei com iFood esse mês?"
+- **Resposta esperada:** R$ 324,30, baseado no transacoes.csv, com menção ao estouro do limite (R$ 200)
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Pergunta:** "Como tá meu orçamento esse mês?"
+- **Resposta esperada:** Resumo citando iFood e lazer estourados, e as demais categorias dentro do limite
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resposta esperada:** Agente informa que só trata de orçamento/finanças pessoais do dia a dia
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
+- **Pergunta:** "Quanto vou gastar de iFood no mês que vem?"
+- **Resposta esperada:** Agente admite que não tem dados futuros, só o histórico atual
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ---
@@ -59,13 +58,5 @@ Após os testes, registre suas conclusões:
 - [Liste aqui]
 
 ---
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
