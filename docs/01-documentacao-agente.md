@@ -61,9 +61,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | Chatbot simples (web ou linha de comando) pra simular a conversa com o Flow |
+| Interface | Chatbot simples com streamlit pra simular a conversa com o Flow |
 | LLM | Modelo de linguagem via API (ex: GPT-4o-mini, gemini ou Claude), responsável por interpretar a pergunta e gerar a resposta |
-| Base de Conhecimento | Arquivo JSON/CSV com categorias de gasto, limites de orçamento mensal e histórico de transações do usuário |
+| Base de Conhecimento | Arquivo JSON/CSV com histórico de alertas, limites de orçamento mensal e histórico de transações do usuário |
 | Validação | Checagem pra garantir que o Flow só fala com base nos dados carregados, sem inventar valores ou categorias |
 
 ---
