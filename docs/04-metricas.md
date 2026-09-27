@@ -28,22 +28,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos por categoria
 - **Pergunta:** "Quanto eu gastei com iFood esse mês?"
 - **Resposta esperada:** R$ 324,30, baseado no transacoes.csv, com menção ao estouro do limite (R$ 200)
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Como tá meu orçamento esse mês?"
 - **Resposta esperada:** Resumo citando iFood e lazer estourados, e as demais categorias dentro do limite
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de orçamento/finanças pessoais do dia a dia
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto vou gastar de iFood no mês que vem?"
 - **Resposta esperada:** Agente admite que não tem dados futuros, só o histórico atual
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
 
@@ -52,10 +52,13 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente respeitou bem o escopo definido, redirecionando perguntas fora do tema (clima, investimentos) sem sair do personagem do Flow
+- Os valores citados nas respostas bateram corretamente com os dados de transacoes.csv e orcamentos.json, sem inventar números
+- O tom informal e direto se manteve consistente em diferentes tipos de pergunta
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Em perguntas mais abertas (ex: "como tá minha vida financeira?"), o agente às vezes trouxe mais categorias do que o necessário — vale reforçar no prompt pra ele priorizar só o que estourou ou está próximo do limite
+- Poderia citar com mais frequência o histórico de alertas anteriores pra evitar parecer repetitivo em conversas mais longas
 
 ---
 
